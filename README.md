@@ -47,3 +47,15 @@ Rafael
 
 @Bi Assistência Técnica 
 - Páginas Categorias (Cria uma e copia para todas)
+
+
+ESTRUTURA BASICA INICIAL
+INDEX.HTML
+ASSESTS
+  IMAGE
+  JS
+    script.js
+  CSS
+    STYLE.CSS
+   
+  
