@@ -31,3 +31,19 @@ Contato
 - Um formulário simples de contato.
 
 Isso é um resumo cru por bem generico, mas já ajuda a temos uma base do projeto.
+
+RESPONSABILIDADES
+
+THIAGO Silva
+- Header(menu)
+- Footer
+
+Alexandre @Alexandre Campos 
+- Sobre
+- Contato
+
+Rafael
+- Review
+
+@Bi Assistência Técnica 
+- Páginas Categorias (Cria uma e copia para todas)
