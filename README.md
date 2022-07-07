@@ -52,10 +52,10 @@ Rafael
 ESTRUTURA BASICA INICIAL
 INDEX.HTML
 ASSESTS
-  IMAGE
-  JS
-    - script.js
-  CSS
-    - STYLE.CSS
+IMAGE
+JS
+- script.js
+CSS
+- STYLE.CSS
    
   
