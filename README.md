@@ -54,8 +54,8 @@ INDEX.HTML
 ASSESTS
   IMAGE
   JS
-    script.js
+    -script.js
   CSS
-    STYLE.CSS
+    -STYLE.CSS
    
   
