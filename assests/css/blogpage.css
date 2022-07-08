@@ -62,7 +62,8 @@ body {
 }
 .autor-info {
     float: left;
-    width: 35%;
+    width: 35%; 
+    line-height: 2px; 
     margin-left: 10px;
     margin-right: 10px;
 }
