@@ -13,6 +13,11 @@ body {
     color: white;
 }
 
+hr {
+    size: 10px;
+    color: #E03F66 !important;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {
@@ -76,11 +81,28 @@ body {
     margin-left: 150px;
     border-radius: 15px 50px 30px 5px;
 }
+.card-share {
+    background-color: #E03F66;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
 .card {
     background-color: #4C4747;
     padding: 20px;
     margin-top: 20px;
     border-radius: 15px 50px 30px 5px;
+}
+i.fa-brands {
+    margin: 12px;
+    font-size: 25px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px white;
+    padding: 0.5em 0.6em;  
 }
 
 /* Clear floats after the columns */
@@ -105,8 +127,19 @@ body {
     width: 100%;
     padding: 0;
 }
-.card-content {
+.card-content, .card-share {
     margin-left: 10px;
     margin-right: 10px;
 }
+i.fa-brands {
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px white;
+    padding: 0.6em 0.65em;  
+}
+.text-share {
+    font-size: 16px;
+}
+
 }
