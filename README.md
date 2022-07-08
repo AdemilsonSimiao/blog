@@ -57,5 +57,10 @@ JS
 - script.js
 CSS
 - STYLE.CSS
+
+## Aletrações
+- Adicionado alguns estilos teste no arquivo style.css.
+- Adiciondo um favicon para a página.
+- Adicionado algumas marcações no arquivo index.
    
   
