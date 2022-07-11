@@ -81,6 +81,28 @@ hr {
     margin-left: 150px;
     border-radius: 15px 50px 30px 5px;
 }
+.card-btn {
+    background-color: #383333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-seemore {
+    margin: 20px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: #989898;
+    background-color: #383333;
+    border-radius: 25px;
+    border: 2px solid #989898;
+}
+.btn-seemore:hover {
+    color: #383333;
+    background-color: #3fe0d2;
+    border: 2px solid #383333;
+}
 .card-share {
     background-color: #E03F66;
     display: flex;
@@ -91,6 +113,16 @@ hr {
     margin-left: 150px;
     border-radius: 15px;
 }
+.card-comments {
+    background-color: #6b6464;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+
 .card {
     background-color: #4C4747;
     padding: 20px;
@@ -116,7 +148,7 @@ i.fa-brands {
 .footer {
     padding: 20px;
     text-align: center;
-    background: 4C4747;
+    background: #4C4747;
     color: white;
     margin-top: 20px;
 }
@@ -127,7 +159,7 @@ i.fa-brands {
     width: 100%;
     padding: 0;
 }
-.card-content, .card-share {
+.card-content, .card-share, .card-comments {
     margin-left: 10px;
     margin-right: 10px;
 }
