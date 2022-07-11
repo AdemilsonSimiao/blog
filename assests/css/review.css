@@ -1,0 +1,58 @@
+.content{
+    margin: 0 9.375rem;
+}
+
+.menu-options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-options button{
+    background: #26B093;
+    border-radius: 20px;
+    width:10.25rem;
+    height:4.25rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 3px 4px 0px -1px #1E8B74;
+    border: 0;
+}
+
+.menu-options input{
+    width: 312px;
+    height: 68px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    padding: 0 30px;
+}
+
+.menu-options  .data-select {
+    width: 136px;
+    height: 68px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    border: 0;
+    margin: 0 20px;
+    padding: 0 30px;
+}
+
+.menu-options  .evaluation-select {
+    width: 173px;
+    height: 68px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    border: 0;
+    margin: 0 20px;
+    padding: 0 30px;
+}
