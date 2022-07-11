@@ -14,7 +14,7 @@ Blog
 - Menu dropdown com as categorias
 - Séries
 - Filmes
-- Doramas
+- Dramas
 - Noticias
 - Animes
 
