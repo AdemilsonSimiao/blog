@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #383333;
+    color: white;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: 4C4747;
+    color: white;
+}
+
+hr {
+    size: 10px;
+    color: #E03F66 !important;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 65%;
+    background: #4C4747;
+    margin-right: 5px;
+    border-radius: 0px 50px 30px 0px;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    background: #383333;
+}
+
+/* Fake image */
+.post-img {
+    background-color: #aaa;
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #E03F66;
+}
+.post-img-mini {
+    background-color: #aaa;
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px #3fe0d2;
+    margin-right: 10px;
+}
+.mini-text {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    border-radius: 15px;
+}
+.autor-img {
+    float: left;
+    width: 35%;
+    margin: 5px;
+    border-radius: 100%;
+    max-width: 100px;
+}
+.autor-info {
+    float: left;
+    width: 35%; 
+    line-height: 2px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Add a card effect for articles */
+.card-content {
+    background-color: #4C4747;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 15px 50px 30px 5px;
+}
+.card-share {
+    background-color: #E03F66;
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+.card {
+    background-color: #4C4747;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px 50px 30px 5px;
+}
+i.fa-brands {
+    margin: 12px;
+    font-size: 25px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px white;
+    padding: 0.5em 0.6em;  
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: 4C4747;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+}
+.card-content, .card-share {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+i.fa-brands {
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px white;
+    padding: 0.6em 0.65em;  
+}
+.text-share {
+    font-size: 16px;
+}
+
+}
