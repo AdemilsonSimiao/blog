@@ -44,19 +44,24 @@ hr {
     border-radius: 15px;
     border: 2px solid #E03F66;
 }
-.post-img-mini {
-    background-color: #aaa;
-    width: 80%;
-    height: 100px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px #3fe0d2;
-    margin-right: 10px;
+.card-post {
+    box-shadow: 4px 4px #E03F66;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+    max-width: 344px;
+    margin-top: 20px;    
 }
-.mini-text {
-    background-color: rgb(211, 211, 211);
-    text-align: center;
-    border-radius: 15px;
+.card-post>img {
+    border-radius: 20px 20px 0 0;
+}
+.card-post:hover {
+    box-shadow: 8px 8px #E03F66;    
+}
+.container-post {
+    padding: 2px 8px;
+    color: #E03F66;
+    border-radius: 20px 20px 0 0;
 }
 .autor-img {
     float: left;
@@ -105,7 +110,6 @@ hr {
 }
 .card-share {
     background-color: #E03F66;
-    display: flex;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -155,13 +159,19 @@ i.fa-brands {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-.leftcolumn, .rightcolumn {
+html {
+    width: 100%;
+}
+.leftcolumn, .rightcolumn, .footer, .header {
     width: 100%;
     padding: 0;
 }
 .card-content, .card-share, .card-comments {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
+}
+.card-share{
+    display: block;
 }
 i.fa-brands {
     margin: 5px;
