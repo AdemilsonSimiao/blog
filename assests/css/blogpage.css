@@ -14,8 +14,7 @@ body {
 }
 
 hr {
-    size: 10px;
-    color: #E03F66 !important;
+    border: 1px solid #3fe0d2;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -38,25 +37,31 @@ hr {
 
 /* Fake image */
 .post-img {
-    background-color: #aaa;
     width: 80%;
-    padding: 20px;
-    border-radius: 15px;
-    border: 2px solid #E03F66;
+    border: 3px solid #3fe0d2;
+    border-radius: 20px;
+    max-width: 900px;
+    height: 400px;
 }
-.post-img-mini {
-    background-color: #aaa;
-    width: 80%;
-    height: 100px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px #3fe0d2;
-    margin-right: 10px;
+
+.card-post {
+    box-shadow: 4px 4px #E03F66;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+    max-width: 344px;
+    margin-top: 20px;    
 }
-.mini-text {
-    background-color: rgb(211, 211, 211);
-    text-align: center;
-    border-radius: 15px;
+.card-post>img {
+    border-radius: 20px 20px 0 0;
+}
+.card-post:hover {
+    box-shadow: 8px 8px #E03F66;    
+}
+.container-post {
+    padding: 2px 8px;
+    color: #E03F66;
+    border-radius: 20px 20px 0 0;
 }
 .autor-img {
     float: left;
@@ -81,9 +86,30 @@ hr {
     margin-left: 150px;
     border-radius: 15px 50px 30px 5px;
 }
+.card-btn {
+    background-color: #383333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-seemore {
+    margin: 20px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: #989898;
+    background-color: #383333;
+    border-radius: 25px;
+    border: 2px solid #989898;
+}
+.btn-seemore:hover {
+    color: #383333;
+    background-color: #3fe0d2;
+    border: 2px solid #383333;
+}
 .card-share {
     background-color: #E03F66;
-    display: flex;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -91,6 +117,16 @@ hr {
     margin-left: 150px;
     border-radius: 15px;
 }
+.card-comments {
+    background-color: #6b6464;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+
 .card {
     background-color: #4C4747;
     padding: 20px;
@@ -116,20 +152,26 @@ i.fa-brands {
 .footer {
     padding: 20px;
     text-align: center;
-    background: 4C4747;
+    background: #4C4747;
     color: white;
     margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-.leftcolumn, .rightcolumn {
+html {
+    width: 100%;
+}
+.leftcolumn, .rightcolumn, .footer, .header {
     width: 100%;
     padding: 0;
 }
-.card-content, .card-share {
-    margin-left: 10px;
+.card-content, .card-share, .card-comments {
+    margin-left: 5px;
     margin-right: 10px;
+}
+.card-share{
+    display: block;
 }
 i.fa-brands {
     margin: 5px;
@@ -140,6 +182,9 @@ i.fa-brands {
 }
 .text-share {
     font-size: 16px;
+}
+.post-img {
+    height: 200px;
 }
 
 }
