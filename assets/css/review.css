@@ -1,10 +1,15 @@
 .content{
-    margin: 0 9.375rem;
+    margin: 0 auto;
+    width: 78vw;
 }
 
 .menu-options{
     display: flex;
     justify-content: space-between;
+}
+
+.menu-data-movies .d-flex{
+    display: flex;
 }
 
 .menu-options button{
@@ -37,14 +42,53 @@
     padding: 0 30px;
 }
 
-.menu-options  .data-select {
+.menu-options input:focus{
+    outline: none;
+}
+
+
+.data-select{
+    position: relative;
     width: 136px;
     height: 68px;
     background: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     border: 0;
     margin: 0 20px;
-    padding: 0 30px;
+    padding: 0 15px;
+    
+    outline: none; 
+}
+
+
+.menu-options  .data-select select{
+    width: 136px;
+    height: 68px;
+    border:0;
+    outline: none;    
+    -moz-appearance:none; 
+    -webkit-appearance:none; 
+    appearance:none;
+    background:transparent;
+    outline: none; 
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.menu-options .data-select::after{
+    content: '';
+    position: absolute;
+    right: 24px;
+    top: 30px;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(255, 255, 255);
+    pointer-events: none;
 }
 
 .menu-options  .evaluation-select {
@@ -54,5 +98,69 @@
     border-radius: 20px;
     border: 0;
     margin: 0 20px;
-    padding: 0 30px;
+    padding: 0 15px;
+    
+    position: relative;
+}
+
+
+.menu-options  .evaluation-select select{
+    width: 136px;
+    height: 68px;
+    border:0;
+    outline: none;    
+    -moz-appearance:none; 
+    -webkit-appearance:none; 
+    appearance:none;
+    background:transparent;
+    outline: none; 
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu-options .evaluation-select::after{
+    content: '';
+    position: absolute;
+    right: 24px;
+    top: 30px;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(255, 255, 255);
+    pointer-events: none;
+}
+
+
+
+/* card */
+.movie-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.card{
+    margin-right: 40px;
+    width: 300px;
+
+}
+
+.card img{
+    width: 290px;
+    height: 400px;
+    margin-right: 0px;
+    margin-top: 62px;
+}
+
+.button-more{
+    margin: 45px auto;
+    width: 252px;
+    height: 50px;
+    border: 2px solid #989898;
+    border-radius: 40px;
+    display: block;
 }
